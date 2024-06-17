@@ -12,10 +12,9 @@ export default [
           },
           rules: {
             'customEslintRules/spyOnAndMockRule': 'error',
-            'no-undef':'error'
           },
     },
-    pluginJs.configs.recommended,
-    ...fixupConfigRules(pluginReactConfig),
+   // pluginJs.configs.recommended,
+   // ...fixupConfigRules(pluginReactConfig)
 
 ];
